@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 정적 팩토리 메서드">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item01/AdvancedSettings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item01/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item01/OrderStatus.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 열거 타입">
+      <change afterPath="$PROJECT_DIR$/memo/플라이웨이트 패턴.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item01/flyweight/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item01/flyweight/Font.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item01/flyweight/FontFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +207,7 @@
       <workItem from="1731845741541" duration="104000" />
       <workItem from="1731845860073" duration="187000" />
       <workItem from="1731846054870" duration="1806000" />
-      <workItem from="1731938244489" duration="1174000" />
+      <workItem from="1731938244489" duration="2054000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -216,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731848517483</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Effective Java - 열거 타입">
+      <option name="closed" value="true" />
+      <created>1731939492651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731939492651</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +244,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Effective Java - 정적 팩토리 메서드" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 정적 팩토리 메서드" />
+    <MESSAGE value="Effective Java - 열거 타입" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 열거 타입" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
