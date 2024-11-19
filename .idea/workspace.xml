@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 플라이웨이트 패턴">
-      <change afterPath="$PROJECT_DIR$/memo/인터페이스에 정적 메소드.md" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 인터페이스와 정적 메소드">
+      <change afterPath="$PROJECT_DIR$/memo/서비스 제공자 프레임워크.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter01/item01/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item01/HelloService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +35,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Effective-Java-Part-1" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Effective-Java-Part-1" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="documentation" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -85,30 +78,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.HelloServiceFactory.executor": "Run",
-    "Application.Order.executor": "Run",
-    "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.HelloServiceFactory.main()].executor": "Run",
-    "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.Product.main()].executor": "Run",
-    "Gradle.Effective-Java-Part-1 [javadoc].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yeol/IdeaProject/effective-java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.HelloServiceFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Order.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Effective-Java-Part-1 [:example.chapter01.item01.HelloServiceFactory.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Effective-Java-Part-1 [:example.chapter01.item01.Product.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Effective-Java-Part-1 [javadoc].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yeol/IdeaProject/effective-java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="example.chapter01.item01" />
@@ -205,7 +198,8 @@
       <workItem from="1731845741541" duration="104000" />
       <workItem from="1731845860073" duration="187000" />
       <workItem from="1731846054870" duration="1806000" />
-      <workItem from="1731938244489" duration="2487000" />
+      <workItem from="1731938244489" duration="2983000" />
+      <workItem from="1732019442437" duration="1636000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -231,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731940329661</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Effective Java - 인터페이스와 정적 메소드">
+      <option name="closed" value="true" />
+      <created>1731941062510</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731941062510</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +254,8 @@
     <MESSAGE value="Effective Java - 정적 팩토리 메서드" />
     <MESSAGE value="Effective Java - 열거 타입" />
     <MESSAGE value="Effective Java - 플라이웨이트 패턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 플라이웨이트 패턴" />
+    <MESSAGE value="Effective Java - 인터페이스와 정적 메소드" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 인터페이스와 정적 메소드" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
