@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 빌더">
-      <change afterPath="$PROJECT_DIR$/memo/자바빈.md" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 자바빈">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item02/illegalargumentexception/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter01/item02/builder/NutritionFacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item02/builder/NutritionFacts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter01/item02/builder/NutritionFacts2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item02/builder/NutritionFacts2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +248,7 @@
       <workItem from="1731846054870" duration="1806000" />
       <workItem from="1731938244489" duration="2983000" />
       <workItem from="1732019442437" duration="4963000" />
-      <workItem from="1732107002233" duration="1133000" />
+      <workItem from="1732107002233" duration="2495000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -308,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732024018130</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Effective Java - 자바빈">
+      <option name="closed" value="true" />
+      <created>1732108198275</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732108198275</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +339,8 @@
     <MESSAGE value="Effective Java - 서비스 제공자 프레임워크" />
     <MESSAGE value="Effective Java - 리플렉션" />
     <MESSAGE value="Effective Java - 빌더" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 빌더" />
+    <MESSAGE value="Effective Java - 자바빈" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 자바빈" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
