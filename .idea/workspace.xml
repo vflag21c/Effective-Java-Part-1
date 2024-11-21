@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 가변인수">
-      <change afterPath="$PROJECT_DIR$/memo/싱글턴.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Concert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/IElvis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/chapter01/item03/field/ElvisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/chapter01/item03/field/MockElvis.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 싱글턴">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis3Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/ElvisSerialization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Singer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memo/싱글턴.md" beforeDir="false" afterPath="$PROJECT_DIR$/memo/싱글턴.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -79,42 +83,43 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BuilderTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HelloServiceFactory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Order.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VarargsSamples.executor&quot;: &quot;Debug&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [:example.chapter01.item01.HelloServiceFactory.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [:example.chapter01.item01.Product.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [buildDependents].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [javadoc].executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in Effective-Java-Part-1.test.executor&quot;: &quot;Debug&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter01/item02&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BuilderTest.executor": "Debug",
+    "Application.ElvisSerialization.executor": "Run",
+    "Application.HelloServiceFactory.executor": "Run",
+    "Application.Order.executor": "Run",
+    "Application.VarargsSamples.executor": "Debug",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.HelloServiceFactory.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.Product.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [buildDependents].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [build].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [clean].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [javadoc].executor": "Run",
+    "JUnit.All in Effective-Java-Part-1.test.executor": "Debug",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter01/item02",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item02" />
@@ -131,13 +136,26 @@
       <recent name="example.chapter01.item01" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Effective-Java-Part-1.test">
+  <component name="RunManager" selected="Application.ElvisSerialization">
     <configuration name="BuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter01.item02.builder.BuilderTest" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="example.chapter01.item02.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElvisSerialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter01.item03.field.ElvisSerialization" />
+      <module name="Effective-Java-Part-1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter01.item03.field.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,28 +198,6 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="Effective-Java-Part-1 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="All in Effective-Java-Part-1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Effective-Java-Part-1.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -212,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElvisSerialization" />
         <item itemvalue="JUnit.All in Effective-Java-Part-1.test" />
         <item itemvalue="Application.VarargsSamples" />
         <item itemvalue="Application.BuilderTest" />
         <item itemvalue="Gradle.Effective-Java-Part-1 [build]" />
-        <item itemvalue="Gradle.Effective-Java-Part-1 [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +240,8 @@
       <workItem from="1732019442437" duration="4963000" />
       <workItem from="1732107002233" duration="3013000" />
       <workItem from="1732110052340" duration="1036000" />
-      <workItem from="1732111105901" duration="28000" />
+      <workItem from="1732111105901" duration="249000" />
+      <workItem from="1732193860454" duration="2529000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -326,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732110195121</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Effective Java - 싱글턴">
+      <option name="closed" value="true" />
+      <created>1732111149037</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732111149037</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +359,8 @@
     <MESSAGE value="Effective Java - 자바빈" />
     <MESSAGE value="Effective Java - IllegalArgumentException" />
     <MESSAGE value="Effective Java - 가변인수" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 가변인수" />
+    <MESSAGE value="Effective Java - 싱글턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 싱글턴" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

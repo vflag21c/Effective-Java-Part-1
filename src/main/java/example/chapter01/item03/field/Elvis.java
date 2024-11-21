@@ -1,6 +1,9 @@
 package example.chapter01.item03.field;
 
-public class Elvis implements IElvis {
+import java.io.ObjectInput;
+import java.io.Serializable;
+
+public class Elvis implements IElvis, Serializable {
 
     /**
      * 싱글톤
@@ -22,4 +25,9 @@ public class Elvis implements IElvis {
         Elvis elvis = Elvis.INSTANCE;
         elvis.leaveTheBuilding();
     }
+
+    //역직렬화 할수 있도록 하는 코드
+//    private Object readResolve() {
+//        return INSTANCE;
+//    }
 }
