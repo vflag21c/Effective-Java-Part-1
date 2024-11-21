@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 싱글턴">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis3Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/ElvisSerialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Singer.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 싱글턴 ( 생성자, 열거타입 )">
+      <change afterPath="$PROJECT_DIR$/memo/메소드 참조.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/methodreference/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memo/싱글턴.md" beforeDir="false" afterPath="$PROJECT_DIR$/memo/싱글턴.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item03/field/Elvis.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +49,8 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -241,7 +235,7 @@
       <workItem from="1732107002233" duration="3013000" />
       <workItem from="1732110052340" duration="1036000" />
       <workItem from="1732111105901" duration="249000" />
-      <workItem from="1732193860454" duration="2529000" />
+      <workItem from="1732193860454" duration="4020000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -331,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732111149037</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Effective Java - 싱글턴 ( 생성자, 열거타입 )">
+      <option name="closed" value="true" />
+      <created>1732196467385</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732196467385</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +362,8 @@
     <MESSAGE value="Effective Java - IllegalArgumentException" />
     <MESSAGE value="Effective Java - 가변인수" />
     <MESSAGE value="Effective Java - 싱글턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 싱글턴" />
+    <MESSAGE value="Effective Java - 싱글턴 ( 생성자, 열거타입 )" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 싱글턴 ( 생성자, 열거타입 )" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
