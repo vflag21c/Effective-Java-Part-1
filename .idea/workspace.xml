@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 인스턴스화 방지">
-      <change afterPath="$PROJECT_DIR$/memo/의존 객체 주입.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/DefaultDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/dependencyinjection/DictionaryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/dependencyinjection/SpellChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/chapter01/item05/dependencyinjection/SpellCheckerTest.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 의존 객체 주입">
+      <change afterPath="$PROJECT_DIR$/memo/팩터리 메소드 패턴.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/MockDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/factorymethod/DefaultDictionaryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/factorymethod/DictionaryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/factorymethod/MockDictionaryFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/factorymethod/SpellChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,9 +73,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -268,7 +268,7 @@
       <workItem from="1732111105901" duration="249000" />
       <workItem from="1732193860454" duration="4020000" />
       <workItem from="1732282129328" duration="2325000" />
-      <workItem from="1732330303909" duration="1927000" />
+      <workItem from="1732330303909" duration="2401000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -390,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732330931977</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Effective Java - 의존 객체 주입">
+      <option name="closed" value="true" />
+      <created>1732332298433</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732332298433</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +431,8 @@
     <MESSAGE value="Effective Java - 함수형 인터페이스" />
     <MESSAGE value="Effective Java - 객체 직렬화" />
     <MESSAGE value="Effective Java - 인스턴스화 방지" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 인스턴스화 방지" />
+    <MESSAGE value="Effective Java - 의존 객체 주입" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 의존 객체 주입" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
