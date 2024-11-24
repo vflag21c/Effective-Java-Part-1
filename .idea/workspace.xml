@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 메소드 참조">
-      <change afterPath="$PROJECT_DIR$/memo/스프링 IoC.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/springioc/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/springioc/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/springioc/SpellChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item05/springioc/SpringDictionary.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 불필요한 객체 생성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memo/불필요한 객체 생성을 피하라.md" beforeDir="false" afterPath="$PROJECT_DIR$/memo/불필요한 객체 생성을 피하라.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,47 +140,50 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BuilderTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Elvis3Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ElvisSerialization.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloServiceFactory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Order.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.VarargsSamples.executor&quot;: &quot;Debug&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [:example.chapter01.item01.HelloServiceFactory.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [:example.chapter01.item01.Product.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [buildDependents].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [dependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [javadoc].executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in Effective-Java-Part-1.test.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter01/item05&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BuilderTest.executor": "Debug",
+    "Application.Elvis3Main.executor": "Debug",
+    "Application.ElvisSerialization.executor": "Run",
+    "Application.Example.executor": "Run",
+    "Application.HelloServiceFactory.executor": "Run",
+    "Application.Order.executor": "Run",
+    "Application.Person.executor": "Debug",
+    "Application.RomanNumerals.executor": "Run",
+    "Application.Strings.executor": "Run",
+    "Application.Sum.executor": "Run",
+    "Application.VarargsSamples.executor": "Debug",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.HelloServiceFactory.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.Product.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [buildDependents].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [build].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [clean].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [dependencies].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [javadoc].executor": "Run",
+    "JUnit.All in Effective-Java-Part-1.test.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter01/item05",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item05" />
@@ -199,19 +197,20 @@
       <recent name="example.chapter01.item03.field" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="example.chapter01.item06" />
       <recent name="example.chapter01.item05" />
       <recent name="example.chapter01.item03.field" />
       <recent name="example.chapter01.item02.builder" />
       <recent name="example.chapter01.item01" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Effective-Java-Part-1 [dependencies]">
-    <configuration name="Elvis3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item03.field.Elvis3Main" />
+  <component name="RunManager" selected="Application.Sum">
+    <configuration name="RomanNumerals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter01.item06.RomanNumerals" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter01.item03.field.*" />
+          <option name="PATTERN" value="example.chapter01.item06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,12 +218,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item03.serialization.Example" />
+    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter01.item06.Strings" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter01.item03.serialization.*" />
+          <option name="PATTERN" value="example.chapter01.item06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter01.item06.Sum" />
+      <module name="Effective-Java-Part-1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter01.item06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,21 +288,13 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="All in Effective-Java-Part-1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Effective-Java-Part-1.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sum" />
+        <item itemvalue="Application.RomanNumerals" />
+        <item itemvalue="Application.Strings" />
         <item itemvalue="Gradle.Effective-Java-Part-1 [dependencies]" />
         <item itemvalue="Gradle.Effective-Java-Part-1 [clean]" />
-        <item itemvalue="JUnit.All in Effective-Java-Part-1.test" />
-        <item itemvalue="Application.Example" />
-        <item itemvalue="Application.Elvis3Main" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +326,7 @@
       <workItem from="1732193860454" duration="4020000" />
       <workItem from="1732282129328" duration="2325000" />
       <workItem from="1732330303909" duration="2401000" />
-      <workItem from="1732453099584" duration="516000" />
+      <workItem from="1732453099584" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -452,7 +456,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732332298433</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Effective Java - 스프링 IoC">
+      <option name="closed" value="true" />
+      <created>1732453665775</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732453665775</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Effective Java - 불필요한 객체 생성">
+      <option name="closed" value="true" />
+      <created>1732454647404</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732454647404</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +518,9 @@
     <MESSAGE value="Effective Java - 객체 직렬화" />
     <MESSAGE value="Effective Java - 인스턴스화 방지" />
     <MESSAGE value="Effective Java - 의존 객체 주입" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 의존 객체 주입" />
+    <MESSAGE value="Effective Java - 스프링 IoC" />
+    <MESSAGE value="Effective Java - 불필요한 객체 생성" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 불필요한 객체 생성" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
