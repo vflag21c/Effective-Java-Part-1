@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - Deprecation">
-      <change afterPath="$PROJECT_DIR$/memo/객체 참조 해제.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/cache/CacheKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/cache/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/cache/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/stack/EmptyStackException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/chapter01/item07/cache/PostRepositoryTest.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 객체 참조 해제">
+      <change afterPath="$PROJECT_DIR$/memo/NullPointerException.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/optional/Channel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/optional/MemberShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/example/chapter01/item07/optional/ChannelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/example/chapter01/item07/cache/PostRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/chapter01/item07/cache/PostRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +51,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -144,6 +142,7 @@
     "Gradle.Effective-Java-Part-1 [dependencies].executor": "Run",
     "Gradle.Effective-Java-Part-1 [javadoc].executor": "Run",
     "JUnit.All in Effective-Java-Part-1.test.executor": "Run",
+    "JUnit.ChannelTest.npe.executor": "Run",
     "JUnit.PostRepositoryTest.cache.executor": "Debug",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -177,18 +176,19 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="example.chapter01.item07.optional" />
       <recent name="example.chapter01.item05.dependencyinjection" />
       <recent name="example.chapter01.item03.field" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="example.chapter01.item07.optional" />
       <recent name="example.chapter01.item06" />
       <recent name="example.chapter01.item05" />
       <recent name="example.chapter01.item03.field" />
       <recent name="example.chapter01.item02.builder" />
-      <recent name="example.chapter01.item01" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostRepositoryTest.cache">
+  <component name="RunManager" selected="JUnit.ChannelTest.npe">
     <configuration name="RomanNumerals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter01.item06.RomanNumerals" />
       <module name="Effective-Java-Part-1.main" />
@@ -228,27 +228,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Effective-Java-Part-1 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration name="ChannelTest.npe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Effective-Java-Part-1.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter01.item07.optional.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="example.chapter01.item07.optional" />
+      <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.optional.ChannelTest" />
+      <option name="METHOD_NAME" value="npe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="PostRepositoryTest.cache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Effective-Java-Part-1.test" />
@@ -268,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChannelTest.npe" />
         <item itemvalue="JUnit.PostRepositoryTest.cache" />
         <item itemvalue="Application.Sum" />
         <item itemvalue="Application.RomanNumerals" />
         <item itemvalue="Application.Strings" />
-        <item itemvalue="Gradle.Effective-Java-Part-1 [dependencies]" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +301,7 @@
       <workItem from="1732453099584" duration="2436000" />
       <workItem from="1732544887371" duration="779000" />
       <workItem from="1732545677324" duration="143000" />
-      <workItem from="1732626006329" duration="2829000" />
+      <workItem from="1732626006329" duration="3550000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -469,7 +463,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732545515291</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Effective Java - 객체 참조 해제">
+      <option name="closed" value="true" />
+      <created>1732628955765</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1732628955765</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +520,8 @@
     <MESSAGE value="Effective Java - 스프링 IoC" />
     <MESSAGE value="Effective Java - 불필요한 객체 생성" />
     <MESSAGE value="Effective Java - Deprecation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - Deprecation" />
+    <MESSAGE value="Effective Java - 객체 참조 해제" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 객체 참조 해제" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

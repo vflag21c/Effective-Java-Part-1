@@ -20,8 +20,7 @@ class PostRepositoryTest {
 
         assertFalse(postRepository.getCache().isEmpty());
 
-        key1 = null;
-        // TODO run gc
+        key1 = null; // 참조 해제
         System.out.println("run gc");
         System.gc();
         System.out.println("wait");
