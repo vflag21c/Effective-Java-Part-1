@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 객체 참조 해제">
-      <change afterPath="$PROJECT_DIR$/memo/NullPointerException.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/optional/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/optional/MemberShip.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/example/chapter01/item07/optional/ChannelTest.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - NPE ( Optional )">
+      <change afterPath="$PROJECT_DIR$/memo/WeakHashMap.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/reference/BigObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/reference/BigObjectReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/reference/PhantomReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/reference/SoftReferenceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/reference/WeakReferenceExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/example/chapter01/item07/cache/PostRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/example/chapter01/item07/cache/PostRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,10 +130,13 @@
     "Application.HelloServiceFactory.executor": "Run",
     "Application.Order.executor": "Run",
     "Application.Person.executor": "Debug",
+    "Application.PhantomReferenceExample.executor": "Debug",
     "Application.RomanNumerals.executor": "Run",
+    "Application.SoftReferenceExample.executor": "Debug",
     "Application.Strings.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.VarargsSamples.executor": "Debug",
+    "Application.WeakReferenceExample.executor": "Debug",
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.HelloServiceFactory.main()].executor": "Run",
     "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.Product.main()].executor": "Run",
@@ -181,20 +185,20 @@
       <recent name="example.chapter01.item03.field" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="example.chapter01.item07.reference" />
       <recent name="example.chapter01.item07.optional" />
       <recent name="example.chapter01.item06" />
       <recent name="example.chapter01.item05" />
       <recent name="example.chapter01.item03.field" />
-      <recent name="example.chapter01.item02.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChannelTest.npe">
-    <configuration name="RomanNumerals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item06.RomanNumerals" />
+  <component name="RunManager" selected="Application.PhantomReferenceExample">
+    <configuration name="PhantomReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.reference.PhantomReferenceExample" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter01.item06.*" />
+          <option name="PATTERN" value="example.chapter01.item07.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item06.Strings" />
+    <configuration name="SoftReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.reference.SoftReferenceExample" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter01.item06.*" />
+          <option name="PATTERN" value="example.chapter01.item07.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,12 +219,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item06.Sum" />
+    <configuration name="WeakReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.reference.WeakReferenceExample" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter01.item06.*" />
+          <option name="PATTERN" value="example.chapter01.item07.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,11 +266,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhantomReferenceExample" />
+        <item itemvalue="Application.WeakReferenceExample" />
+        <item itemvalue="Application.SoftReferenceExample" />
         <item itemvalue="JUnit.ChannelTest.npe" />
         <item itemvalue="JUnit.PostRepositoryTest.cache" />
-        <item itemvalue="Application.Sum" />
-        <item itemvalue="Application.RomanNumerals" />
-        <item itemvalue="Application.Strings" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +305,8 @@
       <workItem from="1732453099584" duration="2436000" />
       <workItem from="1732544887371" duration="779000" />
       <workItem from="1732545677324" duration="143000" />
-      <workItem from="1732626006329" duration="3550000" />
+      <workItem from="1732626006329" duration="3968000" />
+      <workItem from="1732714199736" duration="1699000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -471,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732628955765</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Effective Java - NPE ( Optional )">
+      <option name="closed" value="true" />
+      <created>1732629813431</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1732629813431</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +534,8 @@
     <MESSAGE value="Effective Java - 불필요한 객체 생성" />
     <MESSAGE value="Effective Java - Deprecation" />
     <MESSAGE value="Effective Java - 객체 참조 해제" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 객체 참조 해제" />
+    <MESSAGE value="Effective Java - NPE ( Optional )" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - NPE ( Optional )" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
