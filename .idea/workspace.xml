@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - NPE ( Optional )">
-      <change afterPath="$PROJECT_DIR$/memo/WeakHashMap.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/reference/BigObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/reference/BigObjectReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/reference/PhantomReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/reference/SoftReferenceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/reference/WeakReferenceExample.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - WeakHashMap">
+      <change afterPath="$PROJECT_DIR$/memo/ScheduledThreadPoolExecutor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item07/executor/ExecutorsExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +49,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -127,6 +123,7 @@
     "Application.Elvis3Main.executor": "Debug",
     "Application.ElvisSerialization.executor": "Run",
     "Application.Example.executor": "Run",
+    "Application.ExecutorsExample.executor": "Run",
     "Application.HelloServiceFactory.executor": "Run",
     "Application.Order.executor": "Run",
     "Application.Person.executor": "Debug",
@@ -192,7 +189,20 @@
       <recent name="example.chapter01.item03.field" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PhantomReferenceExample">
+  <component name="RunManager" selected="Application.ExecutorsExample">
+    <configuration name="ExecutorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.executor.ExecutorsExample" />
+      <module name="Effective-Java-Part-1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter01.item07.executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhantomReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.reference.PhantomReferenceExample" />
       <module name="Effective-Java-Part-1.main" />
@@ -248,29 +258,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRepositoryTest.cache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Effective-Java-Part-1.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chapter01.item07.cache.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="example.chapter01.item07.cache" />
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.cache.PostRepositoryTest" />
-      <option name="METHOD_NAME" value="cache" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorsExample" />
         <item itemvalue="Application.PhantomReferenceExample" />
         <item itemvalue="Application.WeakReferenceExample" />
         <item itemvalue="Application.SoftReferenceExample" />
         <item itemvalue="JUnit.ChannelTest.npe" />
-        <item itemvalue="JUnit.PostRepositoryTest.cache" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +300,7 @@
       <workItem from="1732544887371" duration="779000" />
       <workItem from="1732545677324" duration="143000" />
       <workItem from="1732626006329" duration="3968000" />
-      <workItem from="1732714199736" duration="1699000" />
+      <workItem from="1732714199736" duration="2755000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -484,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732629813431</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Effective Java - WeakHashMap">
+      <option name="closed" value="true" />
+      <created>1732715941479</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1732715941479</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +537,8 @@
     <MESSAGE value="Effective Java - Deprecation" />
     <MESSAGE value="Effective Java - 객체 참조 해제" />
     <MESSAGE value="Effective Java - NPE ( Optional )" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - NPE ( Optional )" />
+    <MESSAGE value="Effective Java - WeakHashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - WeakHashMap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
