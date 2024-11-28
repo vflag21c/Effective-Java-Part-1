@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - ScheduledThreadPoolExecutor">
-      <change afterPath="$PROJECT_DIR$/memo/finalizer와 cleaner.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item08/autoclosable/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item08/autoclosable/AutoClosableIsGood.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item08/finalizer/FinalizersBad.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - finalizer &amp; cleaner">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item08/outerclass/LambdaExample.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item08/outerclass/OuterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -128,6 +129,7 @@
     "Application.Example.executor": "Run",
     "Application.ExecutorsExample.executor": "Run",
     "Application.HelloServiceFactory.executor": "Run",
+    "Application.LambdaExample.executor": "Debug",
     "Application.Order.executor": "Run",
     "Application.OuterClass.executor": "Debug",
     "Application.Person.executor": "Debug",
@@ -187,11 +189,11 @@
       <recent name="example.chapter01.item03.field" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="example.chapter01.item08.outerclass" />
       <recent name="example.chapter01.item07.reference" />
       <recent name="example.chapter01.item07.optional" />
       <recent name="example.chapter01.item06" />
       <recent name="example.chapter01.item05" />
-      <recent name="example.chapter01.item03.field" />
     </key>
   </component>
   <component name="RunManager" selected="Application.LambdaExample">
@@ -303,7 +305,7 @@
       <workItem from="1732545677324" duration="143000" />
       <workItem from="1732626006329" duration="3968000" />
       <workItem from="1732714199736" duration="2791000" />
-      <workItem from="1732800150877" duration="1953000" />
+      <workItem from="1732800150877" duration="2248000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -497,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732716983087</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Effective Java - finalizer &amp; cleaner">
+      <option name="closed" value="true" />
+      <created>1732802419772</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1732802419772</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,7 +560,8 @@
     <MESSAGE value="Effective Java - NPE ( Optional )" />
     <MESSAGE value="Effective Java - WeakHashMap" />
     <MESSAGE value="Effective Java - ScheduledThreadPoolExecutor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - ScheduledThreadPoolExecutor" />
+    <MESSAGE value="Effective Java - finalizer &amp; cleaner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - finalizer &amp; cleaner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
