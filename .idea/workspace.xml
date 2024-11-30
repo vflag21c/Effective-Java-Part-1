@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - finalizer &amp; cleaner">
-      <change afterPath="$PROJECT_DIR$/memo/Finalizer 공격.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item08/finalizer_attack/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item08/finalizer_attack/BrokenAccount.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - finalizer 공격">
+      <change afterPath="$PROJECT_DIR$/memo/AutoClosable.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memo/try-with-resources.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/suppress/BadBufferedReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/suppress/TopLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/tryfinally/Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/tryfinally/TopLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/trywithresources/Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/trywithresources/TopLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/trywithresources/TopLineWithDefault.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -140,6 +146,7 @@
     "Application.SoftReferenceExample.executor": "Debug",
     "Application.Strings.executor": "Run",
     "Application.Sum.executor": "Run",
+    "Application.TopLine.executor": "Run",
     "Application.VarargsSamples.executor": "Debug",
     "Application.WeakReferenceExample.executor": "Debug",
     "Downloaded.Files.Path.Enabled": "false",
@@ -161,7 +168,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vflag/IdeaProjects/Effective-Java-Part-1/src/main/java/example/chapter01/item08",
+    "last_opened_file_path": "C:/Users/vflag/IdeaProjects/Effective-Java-Part-1/src/main/java/example/chapter01/item09",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -177,10 +184,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-1\src\main\java\example\chapter01\item09" />
+      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-1\src\main\java\example\chapter01\item08" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item08\autoclosable" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item07" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item05" />
-      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item02" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -198,7 +206,7 @@
       <recent name="example.chapter01.item05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaExample">
+  <component name="RunManager" selected="Application.TopLine">
     <configuration name="ExecutorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.executor.ExecutorsExample" />
       <module name="Effective-Java-Part-1.main" />
@@ -251,12 +259,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeakReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.reference.WeakReferenceExample" />
+    <configuration name="TopLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter01.item09.suppress.TopLine" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter01.item07.reference.*" />
+          <option name="PATTERN" value="example.chapter01.item09.suppress.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopLine" />
         <item itemvalue="Application.LambdaExample" />
         <item itemvalue="Application.OuterClass" />
         <item itemvalue="Application.ExecutorsExample" />
         <item itemvalue="Application.PhantomReferenceExample" />
-        <item itemvalue="Application.WeakReferenceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -509,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732802419772</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Effective Java - finalizer 공격">
+      <option name="closed" value="true" />
+      <created>1732935034374</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1732935034374</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +579,8 @@
     <MESSAGE value="Effective Java - WeakHashMap" />
     <MESSAGE value="Effective Java - ScheduledThreadPoolExecutor" />
     <MESSAGE value="Effective Java - finalizer &amp; cleaner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - finalizer &amp; cleaner" />
+    <MESSAGE value="Effective Java - finalizer 공격" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - finalizer 공격" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
