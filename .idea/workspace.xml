@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - finalizer 공격">
-      <change afterPath="$PROJECT_DIR$/memo/AutoClosable.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memo/try-with-resources.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/suppress/BadBufferedReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/suppress/TopLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/tryfinally/Copy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/tryfinally/TopLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/trywithresources/Copy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/trywithresources/TopLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter01/item09/trywithresources/TopLineWithDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memo/equals.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/CaseInsensitiveString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/inheritance/ColorPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/inheritance/CounterPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/inheritance/CounterPointTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +130,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BuilderTest.executor": "Debug",
+    "Application.CaseInsensitiveString.executor": "Debug",
+    "Application.ColorPoint.executor": "Debug",
+    "Application.CounterPointTest.executor": "Debug",
     "Application.Elvis3Main.executor": "Debug",
     "Application.ElvisSerialization.executor": "Run",
     "Application.Example.executor": "Run",
@@ -168,7 +169,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vflag/IdeaProjects/Effective-Java-Part-1/src/main/java/example/chapter01/item09",
+    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter02/item10",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -184,11 +185,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter02\item10" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-1\src\main\java\example\chapter01\item09" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-1\src\main\java\example\chapter01\item08" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item08\autoclosable" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item07" />
-      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item05" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -199,20 +200,46 @@
       <recent name="example.chapter01.item03.field" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="example.chapter02.item10" />
       <recent name="example.chapter01.item08.outerclass" />
       <recent name="example.chapter01.item07.reference" />
       <recent name="example.chapter01.item07.optional" />
       <recent name="example.chapter01.item06" />
-      <recent name="example.chapter01.item05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TopLine">
-    <configuration name="ExecutorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.executor.ExecutorsExample" />
+  <component name="RunManager" selected="Application.CounterPointTest">
+    <configuration name="CaseInsensitiveString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.CaseInsensitiveString" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter01.item07.executor.*" />
+          <option name="PATTERN" value="example.chapter02.item10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColorPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.inheritance.ColorPoint" />
+      <module name="Effective-Java-Part-1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter02.item10.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CounterPointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.inheritance.CounterPointTest" />
+      <module name="Effective-Java-Part-1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter02.item10.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,32 +253,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="example.chapter01.item08.outerclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item08.outerclass.OuterClass" />
-      <module name="Effective-Java-Part-1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chapter01.item08.outerclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhantomReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.reference.PhantomReferenceExample" />
-      <module name="Effective-Java-Part-1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chapter01.item07.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -274,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CounterPointTest" />
+        <item itemvalue="Application.ColorPoint" />
+        <item itemvalue="Application.CaseInsensitiveString" />
         <item itemvalue="Application.TopLine" />
         <item itemvalue="Application.LambdaExample" />
-        <item itemvalue="Application.OuterClass" />
-        <item itemvalue="Application.ExecutorsExample" />
-        <item itemvalue="Application.PhantomReferenceExample" />
       </list>
     </recent_temporary>
   </component>
