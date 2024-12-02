@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - equals">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/EqualsInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/composition/ColorPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/lombok/LombokTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/lombok/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/PointTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memo/Value 기반의 클래스.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memo/equals.md" beforeDir="false" afterPath="$PROJECT_DIR$/memo/equals.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/PointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/PointTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -318,7 +314,7 @@
       <workItem from="1732626006329" duration="3968000" />
       <workItem from="1732714199736" duration="2791000" />
       <workItem from="1732800150877" duration="2248000" />
-      <workItem from="1733142066396" duration="1483000" />
+      <workItem from="1733142066396" duration="2062000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -536,7 +532,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733060548993</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Effective Java - equals">
+      <option name="closed" value="true" />
+      <created>1733143567796</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1733143567796</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
