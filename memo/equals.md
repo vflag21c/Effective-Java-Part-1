@@ -14,3 +14,8 @@
 - 추이성: A.equals(B) && B.equals(C), A.equals(C)
 - 일관성: A.equals(B) == A.equals(B)
 - null-아님: A.equals(null) == false
+
+
+- equals를 재정의 할 때 hashCode도 반드시 재정의하자.
+- 너무 복잡하게 해결하지 말자.
+- Object 가 아닌 타입의 매개변수를 받는 equals 메서드는 선언하지 말자.

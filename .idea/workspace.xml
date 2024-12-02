@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - finalizer 공격">
-      <change afterPath="$PROJECT_DIR$/memo/equals.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/CaseInsensitiveString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/inheritance/ColorPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/inheritance/CounterPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/inheritance/CounterPointTest.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - equals">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/EqualsInJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/composition/ColorPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/lombok/LombokTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/lombok/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/PointTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memo/equals.md" beforeDir="false" afterPath="$PROJECT_DIR$/memo/equals.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +135,7 @@
     "Application.CounterPointTest.executor": "Debug",
     "Application.Elvis3Main.executor": "Debug",
     "Application.ElvisSerialization.executor": "Run",
+    "Application.EqualsInJava.executor": "Run",
     "Application.Example.executor": "Run",
     "Application.ExecutorsExample.executor": "Run",
     "Application.HelloServiceFactory.executor": "Run",
@@ -207,7 +208,7 @@
       <recent name="example.chapter01.item06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CounterPointTest">
+  <component name="RunManager" selected="Application.EqualsInJava">
     <configuration name="CaseInsensitiveString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.CaseInsensitiveString" />
       <module name="Effective-Java-Part-1.main" />
@@ -247,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item08.outerclass.LambdaExample" />
+    <configuration name="EqualsInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.EqualsInJava" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter01.item08.outerclass.*" />
+          <option name="PATTERN" value="example.chapter02.item10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EqualsInJava" />
         <item itemvalue="Application.CounterPointTest" />
         <item itemvalue="Application.ColorPoint" />
         <item itemvalue="Application.CaseInsensitiveString" />
         <item itemvalue="Application.TopLine" />
-        <item itemvalue="Application.LambdaExample" />
       </list>
     </recent_temporary>
   </component>
@@ -317,6 +318,7 @@
       <workItem from="1732626006329" duration="3968000" />
       <workItem from="1732714199736" duration="2791000" />
       <workItem from="1732800150877" duration="2248000" />
+      <workItem from="1733142066396" duration="1483000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -526,7 +528,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732935034374</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Effective Java - equals">
+      <option name="closed" value="true" />
+      <created>1733060548993</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1733060548993</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +566,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Effective Java - 정적 팩토리 메서드" />
     <MESSAGE value="Effective Java - 열거 타입" />
     <MESSAGE value="Effective Java - 플라이웨이트 패턴" />
     <MESSAGE value="Effective Java - 인터페이스와 정적 메소드" />
@@ -581,7 +590,8 @@
     <MESSAGE value="Effective Java - ScheduledThreadPoolExecutor" />
     <MESSAGE value="Effective Java - finalizer &amp; cleaner" />
     <MESSAGE value="Effective Java - finalizer 공격" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - finalizer 공격" />
+    <MESSAGE value="Effective Java - equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - equals" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
