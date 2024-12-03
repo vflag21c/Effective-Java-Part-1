@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - Value 기반 클래스">
-      <change afterPath="$PROJECT_DIR$/memo/stackOverFlowError.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/inheritance/SmellPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/inheritance/SmellPointTest.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - StackOverFlowError">
+      <change afterPath="$PROJECT_DIR$/memo/리스코프 치환 원칙.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +139,7 @@
     "Application.Person.executor": "Debug",
     "Application.PhantomReferenceExample.executor": "Debug",
     "Application.RomanNumerals.executor": "Run",
+    "Application.SmellPointTest.executor": "Debug",
     "Application.SoftReferenceExample.executor": "Debug",
     "Application.Strings.executor": "Run",
     "Application.Sum.executor": "Run",
@@ -315,7 +314,7 @@
       <workItem from="1732714199736" duration="2791000" />
       <workItem from="1732800150877" duration="2248000" />
       <workItem from="1733142066396" duration="2699000" />
-      <workItem from="1733229429318" duration="288000" />
+      <workItem from="1733229429318" duration="1884000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -549,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733144183984</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Effective Java - StackOverFlowError">
+      <option name="closed" value="true" />
+      <created>1733230024675</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1733230024675</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Effective Java - 플라이웨이트 패턴" />
     <MESSAGE value="Effective Java - 인터페이스와 정적 메소드" />
     <MESSAGE value="Effective Java - 서비스 제공자 프레임워크" />
     <MESSAGE value="Effective Java - 리플렉션" />
@@ -604,7 +610,8 @@
     <MESSAGE value="Effective Java - finalizer 공격" />
     <MESSAGE value="Effective Java - equals" />
     <MESSAGE value="Effective Java - Value 기반 클래스" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - Value 기반 클래스" />
+    <MESSAGE value="Effective Java - StackOverFlowError" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - StackOverFlowError" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -613,6 +620,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/example/chapter02/item10/inheritance/SmellPoint.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
