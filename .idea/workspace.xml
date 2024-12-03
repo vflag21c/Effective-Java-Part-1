@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - equals">
-      <change afterPath="$PROJECT_DIR$/memo/Value 기반의 클래스.md" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - Value 기반 클래스">
+      <change afterPath="$PROJECT_DIR$/memo/stackOverFlowError.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/inheritance/SmellPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/inheritance/SmellPointTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/PointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item10/record/PointTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +166,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter02/item10",
+    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter02/item10/inheritance",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -182,11 +182,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter02\item10\inheritance" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter02\item10" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-1\src\main\java\example\chapter01\item09" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-1\src\main\java\example\chapter01\item08" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item08\autoclosable" />
-      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item07" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -204,7 +204,7 @@
       <recent name="example.chapter01.item06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EqualsInJava">
+  <component name="RunManager" selected="Application.SmellPointTest">
     <configuration name="CaseInsensitiveString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.CaseInsensitiveString" />
       <module name="Effective-Java-Part-1.main" />
@@ -257,12 +257,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item09.suppress.TopLine" />
+    <configuration name="SmellPointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.inheritance.SmellPointTest" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter01.item09.suppress.*" />
+          <option name="PATTERN" value="example.chapter02.item10.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,11 +272,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SmellPointTest" />
         <item itemvalue="Application.EqualsInJava" />
         <item itemvalue="Application.CounterPointTest" />
         <item itemvalue="Application.ColorPoint" />
         <item itemvalue="Application.CaseInsensitiveString" />
-        <item itemvalue="Application.TopLine" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +314,8 @@
       <workItem from="1732626006329" duration="3968000" />
       <workItem from="1732714199736" duration="2791000" />
       <workItem from="1732800150877" duration="2248000" />
-      <workItem from="1733142066396" duration="2062000" />
+      <workItem from="1733142066396" duration="2699000" />
+      <workItem from="1733229429318" duration="288000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -540,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733143567796</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Effective Java - Value 기반 클래스">
+      <option name="closed" value="true" />
+      <created>1733144183984</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1733144183984</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -570,7 +579,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Effective Java - 열거 타입" />
     <MESSAGE value="Effective Java - 플라이웨이트 패턴" />
     <MESSAGE value="Effective Java - 인터페이스와 정적 메소드" />
     <MESSAGE value="Effective Java - 서비스 제공자 프레임워크" />
@@ -595,7 +603,8 @@
     <MESSAGE value="Effective Java - finalizer &amp; cleaner" />
     <MESSAGE value="Effective Java - finalizer 공격" />
     <MESSAGE value="Effective Java - equals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - equals" />
+    <MESSAGE value="Effective Java - Value 기반 클래스" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - Value 기반 클래스" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
