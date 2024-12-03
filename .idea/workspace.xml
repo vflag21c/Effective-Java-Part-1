@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - StackOverFlowError">
-      <change afterPath="$PROJECT_DIR$/memo/리스코프 치환 원칙.md" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - 리스코프 치환 원칙">
+      <change afterPath="$PROJECT_DIR$/memo/hashCode.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item11/hashcode/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item11/hashtable/HashMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +167,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter02/item10/inheritance",
+    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter02/item11",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -181,11 +183,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter02\item11" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter02\item10\inheritance" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter02\item10" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-1\src\main\java\example\chapter01\item09" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-1\src\main\java\example\chapter01\item08" />
-      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter01\item08\autoclosable" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -314,7 +316,7 @@
       <workItem from="1732714199736" duration="2791000" />
       <workItem from="1732800150877" duration="2248000" />
       <workItem from="1733142066396" duration="2699000" />
-      <workItem from="1733229429318" duration="1884000" />
+      <workItem from="1733229429318" duration="4842000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -556,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733230024675</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Effective Java - 리스코프 치환 원칙">
+      <option name="closed" value="true" />
+      <created>1733231610193</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1733231610193</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,7 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Effective Java - 인터페이스와 정적 메소드" />
     <MESSAGE value="Effective Java - 서비스 제공자 프레임워크" />
     <MESSAGE value="Effective Java - 리플렉션" />
     <MESSAGE value="Effective Java - 빌더" />
@@ -611,7 +620,8 @@
     <MESSAGE value="Effective Java - equals" />
     <MESSAGE value="Effective Java - Value 기반 클래스" />
     <MESSAGE value="Effective Java - StackOverFlowError" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - StackOverFlowError" />
+    <MESSAGE value="Effective Java - 리스코프 치환 원칙" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - 리스코프 치환 원칙" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
