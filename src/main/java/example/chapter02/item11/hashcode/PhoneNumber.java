@@ -61,13 +61,16 @@ public final class PhoneNumber {
 
         // 31 을 썼을때 해시 충돌이 가장 적었다.
         //  Objects.hash() 에도 31 사용
-        int result = hashCode;
-        if (result == 0) {
-            result = Short.hashCode(areaCode);
-            result = 31 * result + Short.hashCode(prefix);
-            result = 31 * result + Short.hashCode(lineNum);
-            this.hashCode = result;
+        synchronized (this) {
+            int result = hashCode;
+            if (result == 0) {
+                result = Short.hashCode(areaCode);
+                result = 31 * result + Short.hashCode(prefix);
+                result = 31 * result + Short.hashCode(lineNum);
+                this.hashCode = result;
+            }
         }
+
         return result;
     }
 
