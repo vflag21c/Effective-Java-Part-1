@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - hashCode">
-      <change afterPath="$PROJECT_DIR$/memo/HashMap.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/memo/Thread-safety.md" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - Thread-Safe">
+      <change afterPath="$PROJECT_DIR$/memo/toString.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item12/PhoneNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter02/item11/hashcode/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item11/hashcode/PhoneNumber.java" afterDir="false" />
     </list>
@@ -123,64 +123,65 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BuilderTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CaseInsensitiveString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ColorPoint.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CounterPointTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Elvis3Main.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ElvisSerialization.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsInJava.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Example.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExecutorsExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloServiceFactory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Order.executor&quot;: &quot;Run&quot;,
-    &quot;Application.OuterClass.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PhantomReferenceExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RomanNumerals.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SmellPointTest.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SoftReferenceExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Strings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TopLine.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VarargsSamples.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.WeakReferenceExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [:example.chapter01.item01.HelloServiceFactory.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [:example.chapter01.item01.Product.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [buildDependents].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [dependencies].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Effective-Java-Part-1 [javadoc].executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in Effective-Java-Part-1.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ChannelTest.npe.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PostRepositoryTest.cache.executor&quot;: &quot;Debug&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter02/item11&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BuilderTest.executor": "Debug",
+    "Application.CaseInsensitiveString.executor": "Debug",
+    "Application.ColorPoint.executor": "Debug",
+    "Application.CounterPointTest.executor": "Debug",
+    "Application.Elvis3Main.executor": "Debug",
+    "Application.ElvisSerialization.executor": "Run",
+    "Application.EqualsInJava.executor": "Run",
+    "Application.Example.executor": "Run",
+    "Application.ExecutorsExample.executor": "Run",
+    "Application.HelloServiceFactory.executor": "Run",
+    "Application.LambdaExample.executor": "Debug",
+    "Application.Order.executor": "Run",
+    "Application.OuterClass.executor": "Debug",
+    "Application.Person.executor": "Debug",
+    "Application.PhantomReferenceExample.executor": "Debug",
+    "Application.PhoneNumber.executor": "Debug",
+    "Application.RomanNumerals.executor": "Run",
+    "Application.SmellPointTest.executor": "Debug",
+    "Application.SoftReferenceExample.executor": "Debug",
+    "Application.Strings.executor": "Run",
+    "Application.Sum.executor": "Run",
+    "Application.TopLine.executor": "Run",
+    "Application.VarargsSamples.executor": "Debug",
+    "Application.WeakReferenceExample.executor": "Debug",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.HelloServiceFactory.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.Product.main()].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [buildDependents].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [build].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [clean].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [dependencies].executor": "Run",
+    "Gradle.Effective-Java-Part-1 [javadoc].executor": "Run",
+    "JUnit.All in Effective-Java-Part-1.test.executor": "Run",
+    "JUnit.ChannelTest.npe.executor": "Run",
+    "JUnit.PostRepositoryTest.cache.executor": "Debug",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter02/item11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter02\item11" />
@@ -198,27 +199,14 @@
       <recent name="example.chapter01.item03.field" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="example.chapter02.item12" />
       <recent name="example.chapter02.item10" />
       <recent name="example.chapter01.item08.outerclass" />
       <recent name="example.chapter01.item07.reference" />
       <recent name="example.chapter01.item07.optional" />
-      <recent name="example.chapter01.item06" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SmellPointTest">
-    <configuration name="CaseInsensitiveString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.CaseInsensitiveString" />
-      <module name="Effective-Java-Part-1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chapter02.item10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PhoneNumber">
     <configuration name="ColorPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.inheritance.ColorPoint" />
       <module name="Effective-Java-Part-1.main" />
@@ -258,6 +246,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter02.item12.PhoneNumber" />
+      <module name="Effective-Java-Part-1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter02.item12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmellPointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.inheritance.SmellPointTest" />
       <module name="Effective-Java-Part-1.main" />
@@ -273,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneNumber" />
         <item itemvalue="Application.SmellPointTest" />
         <item itemvalue="Application.EqualsInJava" />
         <item itemvalue="Application.CounterPointTest" />
         <item itemvalue="Application.ColorPoint" />
-        <item itemvalue="Application.CaseInsensitiveString" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +318,7 @@
       <workItem from="1732800150877" duration="2248000" />
       <workItem from="1733142066396" duration="2699000" />
       <workItem from="1733229429318" duration="4910000" />
-      <workItem from="1733318572585" duration="955000" />
+      <workItem from="1733318572585" duration="1931000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -575,7 +576,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733234327787</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Effective Java - Thread-Safe">
+      <option name="closed" value="true" />
+      <created>1733319795824</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1733319795824</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Effective Java - 리플렉션" />
     <MESSAGE value="Effective Java - 빌더" />
     <MESSAGE value="Effective Java - 자바빈" />
     <MESSAGE value="Effective Java - IllegalArgumentException" />
@@ -630,7 +638,8 @@
     <MESSAGE value="Effective Java - StackOverFlowError" />
     <MESSAGE value="Effective Java - 리스코프 치환 원칙" />
     <MESSAGE value="Effective Java - hashCode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - hashCode" />
+    <MESSAGE value="Effective Java - Thread-Safe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - Thread-Safe" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

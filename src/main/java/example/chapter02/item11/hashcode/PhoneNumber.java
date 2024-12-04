@@ -69,9 +69,8 @@ public final class PhoneNumber {
                 result = 31 * result + Short.hashCode(lineNum);
                 this.hashCode = result;
             }
+            return result;
         }
-
-        return result;
     }
 
     public static void main(String[] args) {
