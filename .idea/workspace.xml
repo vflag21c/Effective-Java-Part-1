@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - Thread-Safe">
-      <change afterPath="$PROJECT_DIR$/memo/toString.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item12/PhoneNumber.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - toString">
+      <change afterPath="$PROJECT_DIR$/memo/clone.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/EmptyStackException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/clone_use_constructor/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/clone_use_constructor/SubItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter02/item11/hashcode/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item11/hashcode/PhoneNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,10 +149,12 @@
     "Application.SmellPointTest.executor": "Debug",
     "Application.SoftReferenceExample.executor": "Debug",
     "Application.Strings.executor": "Run",
+    "Application.SubItem.executor": "Debug",
     "Application.Sum.executor": "Run",
     "Application.TopLine.executor": "Run",
     "Application.VarargsSamples.executor": "Debug",
     "Application.WeakReferenceExample.executor": "Debug",
+    "Application.example.chapter02.item13.PhoneNumber.executor": "Debug",
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.HelloServiceFactory.main()].executor": "Run",
     "Gradle.Effective-Java-Part-1 [:example.chapter01.item01.Product.main()].executor": "Run",
@@ -168,7 +174,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter02/item11",
+    "last_opened_file_path": "C:/Users/yeol/IdeaProject/Effective-Java-Part-1/src/main/java/example/chapter02/item13",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -184,11 +190,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter02\item13" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter02\item11" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter02\item10\inheritance" />
       <recent name="C:\Users\yeol\IdeaProject\Effective-Java-Part-1\src\main\java\example\chapter02\item10" />
       <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-1\src\main\java\example\chapter01\item09" />
-      <recent name="C:\Users\vflag\IdeaProjects\Effective-Java-Part-1\src\main\java\example\chapter01\item08" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -199,40 +205,14 @@
       <recent name="example.chapter01.item03.field" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="example.chapter02.item13" />
       <recent name="example.chapter02.item12" />
       <recent name="example.chapter02.item10" />
       <recent name="example.chapter01.item08.outerclass" />
       <recent name="example.chapter01.item07.reference" />
-      <recent name="example.chapter01.item07.optional" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PhoneNumber">
-    <configuration name="ColorPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.inheritance.ColorPoint" />
-      <module name="Effective-Java-Part-1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chapter02.item10.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CounterPointTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.inheritance.CounterPointTest" />
-      <module name="Effective-Java-Part-1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chapter02.item10.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SubItem">
     <configuration name="EqualsInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter02.item10.EqualsInJava" />
       <module name="Effective-Java-Part-1.main" />
@@ -272,13 +252,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubItem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter02.item13.clone_use_constructor.SubItem" />
+      <module name="Effective-Java-Part-1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter02.item13.clone_use_constructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example.chapter02.item13.PhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter02.item13.PhoneNumber" />
+      <module name="Effective-Java-Part-1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter02.item13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubItem" />
+        <item itemvalue="Application.example.chapter02.item13.PhoneNumber" />
         <item itemvalue="Application.PhoneNumber" />
         <item itemvalue="Application.SmellPointTest" />
         <item itemvalue="Application.EqualsInJava" />
-        <item itemvalue="Application.CounterPointTest" />
-        <item itemvalue="Application.ColorPoint" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +324,8 @@
       <workItem from="1732800150877" duration="2248000" />
       <workItem from="1733142066396" duration="2699000" />
       <workItem from="1733229429318" duration="4910000" />
-      <workItem from="1733318572585" duration="1931000" />
+      <workItem from="1733318572585" duration="2125000" />
+      <workItem from="1733401788196" duration="3516000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -584,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733319795824</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Effective Java - toString">
+      <option name="closed" value="true" />
+      <created>1733320671465</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1733320671465</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +629,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Effective Java - 빌더" />
     <MESSAGE value="Effective Java - 자바빈" />
     <MESSAGE value="Effective Java - IllegalArgumentException" />
     <MESSAGE value="Effective Java - 가변인수" />
@@ -639,7 +653,8 @@
     <MESSAGE value="Effective Java - 리스코프 치환 원칙" />
     <MESSAGE value="Effective Java - hashCode" />
     <MESSAGE value="Effective Java - Thread-Safe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - Thread-Safe" />
+    <MESSAGE value="Effective Java - toString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - toString" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
