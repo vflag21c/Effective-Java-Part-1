@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - clone">
-      <change afterPath="$PROJECT_DIR$/memo/UncheckedException.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/exception/MyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/exception/MyException.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - UncheckedException">
+      <change afterPath="$PROJECT_DIR$/memo/TreeSet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/treeset/TreeSetExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,6 +140,7 @@
     "Application.Strings.executor": "Run",
     "Application.Sum.executor": "Run",
     "Application.TopLine.executor": "Run",
+    "Application.TreeSetExample.executor": "Debug",
     "Application.VarargsSamples.executor": "Debug",
     "Application.WeakReferenceExample.executor": "Debug",
     "Downloaded.Files.Path.Enabled": "false",
@@ -200,7 +200,7 @@
       <recent name="example.chapter01.item05" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TopLine">
+  <component name="RunManager" selected="Application.TreeSetExample">
     <configuration name="ExecutorsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.executor.ExecutorsExample" />
       <module name="Effective-Java-Part-1.main" />
@@ -240,19 +240,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhantomReferenceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter01.item07.reference.PhantomReferenceExample" />
-      <module name="Effective-Java-Part-1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example.chapter01.item07.reference.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TopLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter01.item09.suppress.TopLine" />
       <module name="Effective-Java-Part-1.main" />
@@ -266,13 +253,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter02.item13.treeset.TreeSetExample" />
+      <module name="Effective-Java-Part-1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.chapter02.item13.treeset.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeSetExample" />
         <item itemvalue="Application.TopLine" />
         <item itemvalue="Application.LambdaExample" />
         <item itemvalue="Application.OuterClass" />
         <item itemvalue="Application.ExecutorsExample" />
-        <item itemvalue="Application.PhantomReferenceExample" />
       </list>
     </recent_temporary>
   </component>
@@ -527,7 +527,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733564523345</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Effective Java - UncheckedException">
+      <option name="closed" value="true" />
+      <created>1733571564728</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1733571564728</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +565,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Effective Java - 열거 타입" />
     <MESSAGE value="Effective Java - 플라이웨이트 패턴" />
     <MESSAGE value="Effective Java - 인터페이스와 정적 메소드" />
     <MESSAGE value="Effective Java - 서비스 제공자 프레임워크" />
@@ -582,7 +589,8 @@
     <MESSAGE value="Effective Java - finalizer &amp; cleaner" />
     <MESSAGE value="Effective Java - finalizer 공격" />
     <MESSAGE value="Effective Java - clone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - clone" />
+    <MESSAGE value="Effective Java - UncheckedException" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - UncheckedException" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
