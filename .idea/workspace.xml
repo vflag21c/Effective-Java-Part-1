@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - finalizer 공격">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/copy_constructor/HashSetExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/inheritance/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/inheritance/Square.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - clone">
+      <change afterPath="$PROJECT_DIR$/memo/UncheckedException.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/exception/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item13/exception/MyException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -519,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732935034374</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Effective Java - clone">
+      <option name="closed" value="true" />
+      <created>1733564523345</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1733564523345</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Effective Java - 정적 팩토리 메서드" />
     <MESSAGE value="Effective Java - 열거 타입" />
     <MESSAGE value="Effective Java - 플라이웨이트 패턴" />
     <MESSAGE value="Effective Java - 인터페이스와 정적 메소드" />
@@ -574,7 +581,8 @@
     <MESSAGE value="Effective Java - ScheduledThreadPoolExecutor" />
     <MESSAGE value="Effective Java - finalizer &amp; cleaner" />
     <MESSAGE value="Effective Java - finalizer 공격" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - finalizer 공격" />
+    <MESSAGE value="Effective Java - clone" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - clone" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
