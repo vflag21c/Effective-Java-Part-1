@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - toString">
-      <change afterPath="$PROJECT_DIR$/memo/Comparable.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item14/CompareToConvention.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item14/PhoneNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item14/composition/NamedPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item14/composition/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item14/interitance/NamedPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item14/interitance/Point.java" afterDir="false" />
+    <list default="true" id="5bfa214a-b6ae-4092-b682-78213cf13364" name="Changes" comment="Effective Java - Comparable">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item14/decimal/DecimalIsNotCorrect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item14/decimal/IntOverflow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/chapter02/item14/PhoneNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/chapter02/item14/PhoneNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +136,7 @@
     "Application.Example.executor": "Run",
     "Application.ExecutorsExample.executor": "Run",
     "Application.HelloServiceFactory.executor": "Run",
+    "Application.IntOverflow.executor": "Debug",
     "Application.LambdaExample.executor": "Debug",
     "Application.NamedPoint.executor": "Debug",
     "Application.Order.executor": "Run",
@@ -214,7 +211,7 @@
       <recent name="example.chapter01.item08.outerclass" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NamedPoint">
+  <component name="RunManager" selected="Application.IntOverflow">
     <configuration name="CompareToConvention" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example.chapter02.item14.CompareToConvention" />
       <module name="Effective-Java-Part-1.main" />
@@ -228,12 +225,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NamedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter02.item14.interitance.NamedPoint" />
+    <configuration name="IntOverflow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter02.item14.decimal.IntOverflow" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter02.item14.interitance.*" />
+          <option name="PATTERN" value="example.chapter02.item14.decimal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example.chapter02.item12.PhoneNumber" />
+    <configuration name="NamedPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.chapter02.item14.interitance.NamedPoint" />
       <module name="Effective-Java-Part-1.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="example.chapter02.item12.*" />
+          <option name="PATTERN" value="example.chapter02.item14.interitance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -282,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntOverflow" />
         <item itemvalue="Application.NamedPoint" />
         <item itemvalue="Application.CompareToConvention" />
         <item itemvalue="Application.SubItem" />
         <item itemvalue="Application.example.chapter02.item13.PhoneNumber" />
-        <item itemvalue="Application.PhoneNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -328,6 +325,7 @@
       <workItem from="1733229429318" duration="4910000" />
       <workItem from="1733318572585" duration="2125000" />
       <workItem from="1733401788196" duration="3516000" />
+      <workItem from="1733922598900" duration="1522000" />
     </task>
     <task id="LOCAL-00001" summary="Effective Java - 정적 팩토리 메서드">
       <option name="closed" value="true" />
@@ -601,7 +599,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733320671465</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Effective Java - Comparable">
+      <option name="closed" value="true" />
+      <created>1733840348221</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1733840348221</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +637,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Effective Java - 자바빈" />
     <MESSAGE value="Effective Java - IllegalArgumentException" />
     <MESSAGE value="Effective Java - 가변인수" />
     <MESSAGE value="Effective Java - 싱글턴" />
@@ -656,7 +661,8 @@
     <MESSAGE value="Effective Java - hashCode" />
     <MESSAGE value="Effective Java - Thread-Safe" />
     <MESSAGE value="Effective Java - toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - toString" />
+    <MESSAGE value="Effective Java - Comparable" />
+    <option name="LAST_COMMIT_MESSAGE" value="Effective Java - Comparable" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

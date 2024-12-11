@@ -82,14 +82,9 @@ public final class PhoneNumber implements Cloneable, Comparable<PhoneNumber> {
 
     // 코드 14-3 비교자 생성 메서드를 활용한 비교자
     private static final Comparator<PhoneNumber> COMPARATOR =
-            comparingInt((PhoneNumber pn) -> pn.areaCode)
-                    .thenComparingInt(pn -> pn.getPrefix())
-                    .thenComparingInt(pn -> pn.lineNum);
-//
-//    @Override
-//    public int compareTo(PhoneNumber pn) {
-//        return COMPARATOR.compare(this, pn);
-//    }
+            Comparator.comparingInt((PhoneNumber pn) -> pn.areaCode)
+                    .thenComparingInt(PhoneNumber::getPrefix)
+                    .thenComparingInt(PhoneNumber::getLineNum);
 
     private static PhoneNumber randomPhoneNumber() {
         Random rnd = ThreadLocalRandom.current();
